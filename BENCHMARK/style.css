@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.account{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.account p{
+    margin: 13px;
+    color: white;
+}
+.resume-nav{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.resume-nav p{
+    margin: 10px;
+}
+.notificaion {
+    justify-content: center;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: grey;
+}
+.boxModel{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.model{
+    display: flex;
+}
+.accountName{
+    display: flex;
+    padding: 0 10px 0 10px;
+}
+.accountLogo img{
+    border-radius: 30px;
+
+}
+

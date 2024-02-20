@@ -1,0 +1,83 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    padding: 50px;
+  }
+  
+  .card {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-image: url(/Pinterest_Card_Project/natural-4821583_960_720.png);
+    object-fit: none;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    
+  }
+  
+  .save {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: top 0.2s ease-in;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .card:hover .save {
+    top: 20px;
+  }
+  
+  
+  .label, 
+  .action, 
+  .dots {
+    /* position: absolute; */
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    position: absolute;
+    border-radius: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+    bottom: -45px;
+    transition: bottom 0.2s ease-in-out, opacity 0.4s ease-in-out;
+  }
+  
+  .label:hover,
+  .action:hover,
+  .dots:hover {
+    opacity: 1;
+  }
+  
+  .card:hover .label,
+  .card:hover .action,
+  .card:hover .dots {
+    bottom: 15px;
+  }
+  
+  .label {
+    left: 15px;
+  }
+  
+  .action {
+    right: 80px;
+  }
+  
+  .dots {
+    right: 20px;
+  }

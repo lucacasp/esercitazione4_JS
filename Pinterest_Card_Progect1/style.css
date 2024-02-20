@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.card{
+    margin: 50px auto;
+    width: 400px;
+    height: 500px;
+    background-image: url(/Pinterest_Card_Progect1/istockphoto-1227415751-1024x1024.png);
+    border-radius: 20px;
+    opacity: 0.5;
+    position: relative;
+    box-shadow: 10px 10px rgba(0, 0 , 0, 0.25);
+    overflow: hidden;
+}
+.card:hover{
+    opacity:1.0;
+    
+}
+
+.saveButton{
+    width: 60px;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    color: white;
+    font-size: large;
+    padding: 10px;
+    cursor: pointer;
+    transition: top 0.2s ease-in;
+}
+.card:hover .saveButton{
+    top:30px;
+}
+.bottomBanner{
+    position: absolute;
+    bottom: -70px;
+    right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: bottom 0.2s ease-in;
+    opacity: 0.8;
+    margin-right: 5px;
+}
+
+.info,
+.share,
+.set{
+    width: 60px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: white;
+    
+}
+/* per isolare il button e modificarlo come nell'esempio */
+.info:nth-child(1){
+    width: 180px;
+    margin-right: 45px;
+}
+.card:hover .bottomBanner{
+    bottom: 20px;
+}
+.bottomBanner:hover{
+    opacity: 1.0;
+}
+.set,
+.info,
+.
+
+i{
+    margin:18px;
+}
+
