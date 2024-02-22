@@ -56,13 +56,15 @@ console.log(upperFirst(""));
 /*
 function giveMeRandom (n){
     let arrVar = []
-    for( let i = 0; i < 10 ; i++){
-        arrVar[i] = Math.floor(Math.random()*10);
+    for( let i = 0; i < n ; i++){
+        //array.push(Math.floor(Math.random()*11)
+        arrVar[i] = Math.floor(Math.random()*11);
     }    
     return arrVar
 }
-console.log(giveMeRandom(6))
+console.log(giveMeRandom(5))
 */
+
 
 //EXTRA:
 /* ESERCIZIO 1
@@ -82,16 +84,17 @@ console.log(area(4, 6))
 */
 /*
 function crazyDiff (nr){
-    absDif = nr - 19
-    if ( absDif > 19){
-        return absDif * 3
+    let diffAssoluta = Math.abs(nr - 19 ) 
+    if ( diffAssoluta > 19){
+        return diffAssoluta * 3
     }
     else{
-        return absDif 
+        return diffAssoluta;
     }
 }
-console.log(crazyDiff()) //type a number 
+console.log(crazyDiff()); // type a number  
 */
+
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
@@ -100,14 +103,14 @@ console.log(crazyDiff()) //type a number
 /*
 function codify(str){
      if(str.startsWith("code")){
-        return str
+        return str;
      } else {
-        return "code" + str
+        return "code" + str;
      }
 }
 
-console.log(codify("javascript")) // aggiunge modifica
-console.log(codify("codeciao")) // non aggiunge 
+console.log(codify("javascript")); // aggiunge modifica
+console.log(codify("codeciao")); // non aggiunge 
 */
 
 
