@@ -39,10 +39,10 @@ changeAdress.addEventListener("click", function(){
     document.querySelector('h5').textContent= "Via Boccaccio, Scalea (CS)";
 })
 
-//10
+//10 
 const links = document.getElementsByTagName("a");
 console.log(links) //6 elementi
-for (let i = 0; i < links.lenght; i++){
+for (let i = 0; i < links.length; i++){
     links[i].classList.add("mystyle")
 }
 
@@ -59,10 +59,10 @@ function toggleImageVisibility() {
 }
 
 
-//12 però non mi funziona +++ chiedere al prof +++
+//12
 function coloreRandom(){
     const colorePrezzi = document.getElementsByTagName("span")
-    for (let i = 0; i < colorePrezzi.lenght; i++){
+    for (let i = 0; i < colorePrezzi.length; i++){
         let r = Math.floor(Math.random() * 255);
         let g = Math.floor(Math.random() * 255);
         let b = Math.floor(Math.random() * 255);
