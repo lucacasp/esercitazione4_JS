@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trova lavoro</title>
+</head>
+<body>
+
+    <div id="container">
+        <div class="title">
+            <h1>Are you looking for a <span>JOB</span> ?</h1>
+        </div>
+       
+        <!-- <div class="form"> -->
+            <!-- <h2>Look at our job offers:</h2> -->
+            <form id="form-dati">
+                <!-- <label for="location">Location</label> -->
+                <input id="location" type="text" value="" placeholder="Type a location..." required>
+                <!-- <label for="title">Title</label> -->
+                <input id="title" type="text" value="" placeholder="Type a JOB title..." required>
+                <button type="button" id="myButton" onclick="jobsResearch()">Cerca</button>
+            </form>   
+        <!-- </div> -->
+
+        <div>
+            <ul id="lista"></ul>
+        </div>
+    </div>   
+    <script src="script.js"></script>
+</body>
+</html>

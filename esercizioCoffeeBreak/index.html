@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainbox">
+        <h1 class="title"></h1>
+        <p>Benvenuto/a</p>
+        <form><!-- come practice si mette id = for -->
+            <label for="caffe">Tipo di caffè:</label>
+            <select id="caffe">
+                <option value="Espresso">Espresso</option>
+                <option value="Americano">Americano</option>
+                <option value="Cappuccino">Cappuccino</option>
+            </select>
+            <label for="zucchero">Zucchero:</label>
+            <input type="checkbox" id="zucchero" value="0.50">
+
+            <label for="latte">Tipo di latte:</label>
+            <select id="latte">
+                <option value="intero">Intero</option>
+                <option value="scremato">Scremato</option>
+                <option value="vegetale">Vegetale</option>
+            </select>
+
+            <label for="panna">Panna:</label>
+            <input type="checkbox" id="panna" value="1">
+
+            <label for="aroma">Tipo di aroma:</label>
+            <select id="aroma">
+                <option value="vanilla">Vanilla</option>
+                <option value="caramello">Caramello</option>
+                <option value="cioccolato">Cioccolato</option>
+            </select>
+
+            <label for="codice-sconto"></label>
+            <input type="text" >
+            <button type="button" id="button">Calcola Prezzo</button>
+
+        </form>
+
+        <div id="total-price"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
